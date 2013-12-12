@@ -1,0 +1,1 @@
+find ~/.ivy2 -name "*spray*" | xargs rm -R

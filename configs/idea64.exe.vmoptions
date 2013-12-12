@@ -1,0 +1,10 @@
+-Xms512m
+-Xmx4G
+-XX:MaxPermSize=200m
+-XX:ReservedCodeCacheSize=64m
+-server
+-XX:+DoEscapeAnalysis
+-XX:+UseBiasedLocking
+-XX:+UseCompressedOops
+-XX:CompileThreshold=1500
+-Dsun.awt.keepWorkingSetOnMinimize=true
