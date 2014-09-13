@@ -21,5 +21,5 @@ git filter-branch --env-filter \
          export GIT_COMMITTER_DATE
          GIT_AUTHOR_DATE='$date'
          GIT_COMMITTER_DATE='$date'
-     fi" &amp;&amp;
+     fi" &&
 rm -fr "$(git rev-parse --git-dir)/refs/original/"
